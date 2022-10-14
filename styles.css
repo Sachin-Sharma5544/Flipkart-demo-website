@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header-flipkart {
+    height: 56px;
+    background-color: #2370f4;
+}
+
+.explore-plus-logo img{
+    height: 40px;
+    position: relative;
+    top: 10px;
+}
+
+.main-header-container {
+    max-width: 1000px;
+    margin-left: auto; 
+    margin-right: auto;
+    
+    
+}
+
+.main-header-container .search-product {
+    display: inline-block;
+    height: 70%;
+    width: 400px;
+    
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
