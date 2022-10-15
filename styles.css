@@ -9,6 +9,7 @@
     background-color: #2370f4;
 }
 
+/* 
 .explore-plus-logo img{
     height: 60%;
     position: relative;
@@ -27,10 +28,144 @@
     display: inline-block;
     margin-left: 10px;
     padding: 10px 0px;
+    width: 400px;
 }
 
 .main-header-container input {
-    width: 400px;
+    width: 100%;
     padding: 10px 10px;
+}
+
+.header-seller {
+    display: inline-block;
+} */
+
+/* Old Styles replaced */
+
+.main-header-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main-header-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95%;
+}
+
+.explore-plus-logo-wrapper img {
+    height: 35px;
+    align-self: flex-end;
+}
+
+.search-product-wrapper {
+    width: 450px;
+    position: relative;
+    left: -20px;
+}
+
+.search-product-wrapper input{
+    width: 100%;
+    padding: 10px;
+}
+
+.header-login-btn-wrapper .header-login-btn {
+    color: #2370f4;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
+    background-color: white;
+}
+
+.header-become-selller-wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+.primary-button {
+    position: relative;
+    background: transparent;
+    border:  none;
+    color: white;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+.secondary-button {
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+.dropdown {
+    display: inline-block;
+    position: absolute;
+}
+
+.dropdown-list {
+    border: 1px solid rgb(218, 217, 217);
+    position: relative;
+    top: 25px;
+    left: -100px;
+    display: none;
+}
+
+.header-more .dropdown-list a { 
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 12px 20px;
     
 }
+
+.header-more .dropdown-list a{ 
+   border-bottom: 1px solid rgb(218, 217, 217);
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+.header-cart-wrapper {
+    color: white;
+    margin-left: 10px;
+}
+
+.header-cart-wrapper > *{
+    display: inline;
+    padding-right: 4px;
+}
+
+/* Top Section Styling */
+
+/* .top-section-container-wrapper {
+    max-width: 1200px;
+} */
+
+.top-section-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+}
+
+.top-section-container img{
+    height: 70px;
+}
+
+.top-section-container h4{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.top-section-container > *{
+    text-align: center;
+    padding: 10px 2px;
+}
+
+
+
+
+
