@@ -186,6 +186,27 @@
     
 }
 
+.my-carousel-btns-wrapper .my-carousel-btn button{
+    margin: 40px 0px;
+    background-color: rgb(99, 240, 228);
+    opacity: 1;
+    width: 60px;
+}
+
+.my-carousel-btns-wrapper .my-carousel-btn:nth-child(odd)  button{
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.my-carousel-btns-wrapper .my-carousel-btn:nth-child(even)  button{
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.my-carousel-btns-wrapper span {
+    color: black;
+}
+
 
 
 
