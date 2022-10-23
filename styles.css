@@ -212,6 +212,29 @@
     font-size: 32px;
 }
 
+/* Discount Images */
+.discount-img-item img {
+    width: 100%;
+    cursor: pointer;
+    margin: 8px 0px;
+}
+
+/* Deals Images */
+.deals-images-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deals-images-wrapper .deals-img {
+    width: 32.5%;
+    
+}
+
+.deals-images-wrapper .deals-img img {
+    width: 100%;
+}
+
+
 
 
 
