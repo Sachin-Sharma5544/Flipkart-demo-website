@@ -187,25 +187,32 @@
 }
 
 .my-carousel-btns-wrapper .my-carousel-btn button{
-    margin: 40px 0px;
-    background-color: rgb(99, 240, 228);
+    margin: 50px 0px;
+    background-color: white;
     opacity: 1;
-    width: 60px;
+    width: 50px;
 }
 
 .my-carousel-btns-wrapper .my-carousel-btn:nth-child(odd)  button{
-    border-bottom-right-radius: 8px;
-    border-top-right-radius: 8px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .my-carousel-btns-wrapper .my-carousel-btn:nth-child(even)  button{
-    border-bottom-left-radius: 8px;
-    border-top-left-radius: 8px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
-.my-carousel-btns-wrapper span {
+/* .my-carosel-btn-prv span.carousel-control-prev-icon {
     color: black;
+} */
+
+.my-carousel-btn i{
+    color: black;
+    font-size: 32px;
 }
+
+
 
 
 
