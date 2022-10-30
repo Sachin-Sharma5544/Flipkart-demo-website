@@ -234,6 +234,66 @@
     width: 100%;
 }
 
+/* Setting Height and width of Furniture and item category card */
+
+.prod-cat-card-dimensions {
+    height: 350px;
+    width: 228px;
+    min-width: 228px ;
+    min-height: 350px;
+}
+
+.product-category-item{
+    background-color: crimson;
+    display: flex;
+}
+
+.item-category {
+    background-color: white;
+}
+
+.item-category h3 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.item-category-btn {
+    margin: 40px auto;
+    width: 50%;
+}
+
+.item-category a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(35, 112, 244);
+    font-weight: 300;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 2px;
+}
+
+
+.item-category-img img {
+    width: 100%;
+}
+
+.item-slider .card-wrapper {
+    display: flex;
+}
+
+.card-wrapper a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.furniture-item img{
+    height: 100%;
+    width: 100%;
+}
+
+
 
 
 
